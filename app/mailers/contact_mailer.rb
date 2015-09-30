@@ -1,9 +1,9 @@
 class ContactMailer < ActionMailer::Base
   default to: 'tacos1998@gmail.com'
-  def contact_email(name, email, comments)
+  def contact_email(name, email, body)
     @name = name
     @email = email
-    @comments = comments
+    @body = body
     mail(from: email, subject: 'Contact Form Message')
   end
 end
