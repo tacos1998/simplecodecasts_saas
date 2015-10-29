@@ -2,11 +2,13 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
 .alert-notice {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
+
 body {
     //gradient from uiGradients
   background: -webkit-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* Chrome 10+, Saf5.1+ */
@@ -14,4 +16,30 @@ body {
   background:     -ms-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #43cea2 10%, #185a9d 90%); /* W3C */
+}
+
+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: #185a9d;
+    border-color: #004488;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #004477;
+    border-color: #002255;
+}
+
+.btn-success,
+.btn-success:focus {
+    color: #fff;
+    background-color: #43cea2;
+    border-color: #33bb99;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #33bb88;
+    border-color: #339966;
 }
