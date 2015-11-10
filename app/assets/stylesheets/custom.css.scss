@@ -19,26 +19,60 @@ body {
 }
 
 .btn-primary,
-.btn-primary:focus {
+.btn-primary:focus,
+.btn-primary:disabled,
+.btn-primary.disabled {
     color: #fff;
     background-color: #185a9d;
     border-color: #004488;
 }
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active {
+    color: #fff;
+    background-color: #004477;
+    border-color: #002255;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
     color: #fff;
     background-color: #004477;
     border-color: #002255;
 }
 
 .btn-success,
-.btn-success:focus {
+.btn-success:focus,
+.btn-success:disabled,
+.btn-success.disabled {
     color: #fff;
     background-color: #43cea2;
     border-color: #33bb99;
 }
 
-.btn-success:hover {
+.btn-success:hover,
+.btn-success:active {
+    color: #fff;
+    background-color: #33bb88;
+    border-color: #339966;
+}
+
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus {
     color: #fff;
     background-color: #33bb88;
     border-color: #339966;
